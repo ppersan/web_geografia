@@ -5,6 +5,13 @@ body {
     padding: 0;
 }
 
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -26,6 +33,14 @@ li {
     background-color: #fff;
     transition: background-color 0.3s ease;
     overflow: hidden; /* Para contener el float de la imagen */
+}
+
+.practice p:first-of-type {
+    font-size: 1.1em; /* Ajusta el tamaño del primer párrafo */
+}
+
+.practice p:first-of-type:hover {
+    text-decoration: underline; /* Subrayar el párrafo al hacer hover */
 }
 
 .practice:hover {
